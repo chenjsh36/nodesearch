@@ -1,0 +1,27 @@
+{
+  "name": "nodesearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenjsh36/nodesearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjsh36/nodesearch/issues"
+  },
+  "homepage": "https://github.com/chenjsh36/nodesearch",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.4",
+    "express": "^4.13.4",
+    "forever": "^0.15.1",
+    "superagent": "^1.8.0-beta.2"
+  }
+}
